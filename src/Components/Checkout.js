@@ -32,6 +32,7 @@ const Checkout = (props) => {
   return (
     <div className="Checkout">
       <form onSubmit={handleSubmit}>
+        <h1>Checkout</h1>
         <label>
           First Name
           <br />

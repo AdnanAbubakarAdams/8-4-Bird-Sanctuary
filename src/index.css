@@ -1,4 +1,43 @@
-/* .Cart { */
-    /* border: 1px solid black; */
-/* } */
-/*  */
+.main {
+    display: grid;
+    grid-template-areas: 
+    "side main";
+    /* margin: 15px; */
+}
+
+.cart {
+    grid-area: side;
+    display: flex;
+    border: 1px solid black;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+}
+
+.checkout {
+    display: flex;
+    grid-area: side;
+    border: 1px solid black;
+}
+.all {
+    display: grid;
+    grid-template-areas: 
+    "bird bird bird";
+    justify-content: space-evenly;
+    gap: 3px;
+}
+.bird {
+    list-style: none;
+}
+.birds {
+    grid-area: bird;
+    /* grid-column: sin; */
+    border: 1px solid black;
+    text-align: center;
+    /* font-size: 1px; */
+    
+}
+
+.pic {
+    height: 100px;
+    width: 100px;
+}

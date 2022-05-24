@@ -14,7 +14,7 @@ const IndividualBird = (props) => {
       <div className="birds">
         <h4>{name}</h4>
         <p>${amount}</p>
-        <img src={img} alt={name} width="200px" />
+        <img className="pic" src={img} alt={name}  />
         <br></br>
         <button onClick={handleClick}>ADOPT</button>
       </div>
